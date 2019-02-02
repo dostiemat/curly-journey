@@ -8,7 +8,7 @@ iTunes can find them on the iTunes Store but the feature is not perfect. Many al
 But it is possible to add our own album cover with the following steps:
 1. Right click on an album
 2. Click on "Album Info"
-3. Select the image in the top-left corner
+3. Select the image frame in the top-left corner
 4. Paste the image of our choice
 
 ## What the script does
@@ -20,7 +20,7 @@ The purpose of the script is to accelerate the search of all the missing album c
 3. Sign in with your Apple ID if asked
 4. iTunes will popup a window showing all the albums it does not know
 5. Save the list as 'iTunes.txt' next to the Python script
-6. Run 'python3 find_album_artwork.py'
+6. Run `python3 find_album_artwork.py`
 
 ## Tests
 This script has been tested with a list containing about 70 items and Safari was able to open 70 tabs side-by-side without any problem on an 2011 MacBook Pro running macOS High Sierra.
